@@ -285,7 +285,7 @@ module.exports.modifypassword=async(req,res)=>{
             }
         }
         else{
-            console.log("current and new oassword are same");
+            console.log("current And new oassword are same");
         }
     }
     else{
@@ -394,14 +394,14 @@ module.exports.verifypass=async(req,res)=>{
             }
             else
             {
-                console.log("email not found");
+                console.log("Email not found");
                 return res.redirect('back');
 
             }
         }
         else
         {
-            console.log("email not found");
+            console.log("Email not found");
             return res.redirect('back');
         }
     }
