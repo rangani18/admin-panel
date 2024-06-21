@@ -23,8 +23,8 @@ app.use(express.static(path.join(__dirname,'user_assets')));
 
 
 app.use(session({
-    name : "madhvi",
-    secret:"madhvi",
+    name : "khushi",
+    secret:"khushi",
     resave:false,
     saveUninitialized:false,
     cookie:{
